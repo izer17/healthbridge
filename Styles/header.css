@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  right: 10px;
+  top: 35px;
+}
+.signUp{
+  display: flex;
+}
+a {
+  display: grid;
+  grid-template-columns: 10px 10px 10px 10px;
+  column-gap: 20px;
+  text-decoration: none;
+  color: rgb(0, 103, 163);
+  transition: font-weight 0.15s;
+  white-space: nowrap;
+}
+a:hover {
+  font-weight: bold;
+}
+
+.signUp-button {
+  font-weight: bold;
+  margin-right: 50px;
+  border: solid rgb(0, 110, 173) 1px;
+  border-radius: 25px;
+  padding: 10px 20px 10px 20px;
+  color: rgb(0, 110, 173);
+  background-color: transparent;
+  transition: background-color 0.15s, color 0.15s, opacity 0.15s, box-shadow 0.15s;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.signUp-button:hover {
+  color: white;
+  background-color: rgb(0, 110, 173);
+  box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.39);
+
+}
+.signUp-button:active {
+  opacity: 0.7;
+}
+
+.page-logo {
+  position: fixed;
+  top: 35px;
+  left: 40px;
+}
+
+.logo {
+  width: 180px;
+}
+

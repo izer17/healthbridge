@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px;
+  padding-top: 100px;
+  padding-left: 250px;
+  padding-right: 250px;
+  position: relative;
+  background-image: url("Blue\ and\ White\ Gradient\ Zoom\ Room\ Background\ Zoom\ Virtual\ Background.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+  color: rgb(255, 255, 255);
+  
+}
